@@ -1,3 +1,6 @@
+DB_USERNAME: ""
+DB_PASSWORD: ""
+
 serviceAccount:
   create: true
 
