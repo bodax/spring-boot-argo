@@ -39,8 +39,10 @@ ports:
     value: 8081
 
 envs:
-  - name: EXTRA_HELM_ENV
-    value: EXTRA_HELM_VALUE
+  - name: DB_USERNAME
+    value: "{{ .Env.DB_USERNAME }}"
+  - name: DB_PASSWORD
+    value: "{{ .Env.DB_PASSWORD }}"
 
 logging:
   level:
