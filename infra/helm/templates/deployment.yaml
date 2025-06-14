@@ -58,9 +58,9 @@ spec:
           - name: JSON_LOGS_ENABLED
             value: {{ default "false" .Values.logging.json.enabled | quote }}
           - name: DB_USERNAME
-            value: {{ .Values.DB_USERNAME | quote }}
+            value: {{ .Values.DB_USERNAME }}
           - name: DB_PASSWORD
-            value: {{ .Values.DB_PASSWORD | quote }}
+            value: {{ .Values.DB_PASSWORD }}
           {{- range .Values.envs }}
           - name: {{ .name }}
             value: {{ .value | quote }}
