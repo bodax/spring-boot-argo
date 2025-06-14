@@ -40,9 +40,9 @@ ports:
 
 env:
   - name: DB_USERNAME
-    value: "{{ .Values.env.dbUsername }}"
+    value: {{ .Values.env.DB_USERNAME }}
   - name: DB_PASSWORD
-    value: "{{ .Values.env.dbPassword }}"
+    value: {{ .Values.env.DB_USERNAME }}
 
 logging:
   level:
