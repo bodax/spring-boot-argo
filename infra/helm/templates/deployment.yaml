@@ -59,5 +59,5 @@ spec:
             value: {{ default "false" .Values.logging.json.enabled | quote }}
           {{- range .Values.envs }}
           - name: {{ .name }}
-            value: {{ .value }}
+            value: {{ .value | quote }}
           {{- end }}

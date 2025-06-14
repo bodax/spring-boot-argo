@@ -38,11 +38,11 @@ ports:
     name: management
     value: 8081
 
-env:
+envs:
   - name: DB_USERNAME
-    value: {{ .Values.env.DB_USERNAME }}
+    value: ""
   - name: DB_PASSWORD
-    value: {{ .Values.env.DB_PASSWORD }}
+    value: ""
 
 logging:
   level:
