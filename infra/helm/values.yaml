@@ -1,4 +1,4 @@
-DB_USERNAME: ""
+DB_USERNAME: <path:kv-v2/data/demo#user>
 DB_PASSWORD: ""
 
 serviceAccount:
