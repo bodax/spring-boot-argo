@@ -41,12 +41,6 @@ ports:
     name: management
     value: 8081
 
-envs:
-  - name: DB_USERNAME
-    value: ""
-  - name: DB_PASSWORD
-    value: ""
-
 logging:
   level:
     spring: "info"
