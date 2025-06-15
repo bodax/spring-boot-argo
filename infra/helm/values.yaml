@@ -1,12 +1,9 @@
-DB_USERNAME: <path:kv-v2/data/demo#user>
-DB_PASSWORD: ""
-
 serviceAccount:
   create: true
 
 image:
   repository: bodax/spring-boot-argo
-  tag: main
+  tag: master
   pullPolicy: IfNotPresent
 
 replicaCount: 1
